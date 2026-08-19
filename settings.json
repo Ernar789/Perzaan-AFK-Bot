@@ -8,7 +8,7 @@
   "server": {
     "ip": "platyfish.aternos.host",
     "port": 47367,
-    "version": "1.21.5"
+    "version": false
   },
   "position": {
     "enabled": true,
