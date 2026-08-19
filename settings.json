@@ -8,7 +8,7 @@
   "server": {
     "ip": "CrazyMC-LxlI.aternos.me",
     "port": 47367,
-    "version": "1.21"
+    "version": "1.21.5"
   },
   "position": {
     "enabled": true,
