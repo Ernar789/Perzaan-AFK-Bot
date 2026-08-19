@@ -6,7 +6,7 @@
     "type": "offline"
   },
   "server": {
-    "ip": " platyfish.aternos.host",
+    "ip": "platyfish.aternos.host",
     "port": 47367,
     "version": "1.21.5"
   },
