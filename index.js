@@ -374,7 +374,12 @@ function createBot() {
       port: config.server.port,
       version: config.server.version,
       hideErrors: false,
-      checkTimeoutInterval: 120000 // 2 minutes - detects dead connections without false-positive disconnects
+      checkTimeoutInterval: 120000, // 2 minutes - detects dead connections without false-positive disconnects
+      physicsEnabled: false
+    });
+    bot.once('spawn',() => {
+      bot.physicsEnabled = true;
+      console.log('Бот успешно заспавнился!');
     });
 
     bot.loadPlugin(pathfinder);
