@@ -375,7 +375,9 @@ function createBot() {
       version: config.server.version,
       hideErrors: false,
       checkTimeoutInterval: 180000, // 2 minutes - detects dead connections without false-positive disconnects
-      physicsEnabled: false
+      physicsEnabled: false,
+      spawnTimeout: 180000,
+      defaultChatPatterns: false
     });
     bot.once('spawn',() => {
       bot.physicsEnabled = true;
